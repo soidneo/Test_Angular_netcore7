@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Interrapidisimo_test.Web.props" />
+</Project>

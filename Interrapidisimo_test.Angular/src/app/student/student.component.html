@@ -1,0 +1,81 @@
+<h1 id="tableLabel">Listado y Documentación</h1>
+
+<p>Prueba interrapidisimo.</p>
+
+<p *ngIf="!students">Cargando por favor espere</p>
+
+<table *ngIf="students!">
+  <thead>
+    <tr>
+      <th>Nombre</th>
+      <th>Materias Inscritas</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let student of students">
+      <td>{{ student.name }}</td>
+      <td>
+        <ul>
+          <li *ngFor="let registeredSubject of student.registeredSubjects">
+            {{ registeredSubject.subject.name }} - {{ registeredSubject.professor.name }}
+          </li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+<h1>Documentación - Prueba Interrapidísimo</h1>
+
+<h2 id="tableLabel">Asignar Materias</h2>
+<p>Esta página te permite registrar a un estudiante y asignar materias de un programa de créditos.</p>
+
+<h3>Características del Proyecto</h3>
+<ul>
+  <li>Desarrollado con Angular y .NET Core 7.</li>
+  <li>Implementa la arquitectura limpia siguiendo un template de Ardalis.</li>
+  <li>Utiliza Minimal Endpoints para la creación de endpoints de manera sencilla.</li>
+  <li>Emplea Guard Clauses para mejorar la legibilidad y mantenibilidad del código.</li>
+  <li>Se utiliza Implicit Operator para el mapeo de entidades, evitando el uso de librerías como AutoMapper.</li>
+</ul>
+
+<h3>Funcionalidades</h3>
+<p>El sistema cumple con los siguientes puntos:</p>
+<ol>
+  <li>Permite a un usuario realizar un registro en línea de un estudiante.</li>
+  <li>Los estudiantes se adhieren a un programa de créditos.</li>
+  <li>Existen 10 materias en el programa, cada una equivalente a 3 créditos.</li>
+  <li>Los estudiantes pueden seleccionar hasta 3 materias.</li>
+  <li>Hay 5 profesores que dictan 2 materias cada uno.</li>
+  <li>Se evita que un estudiante tenga clases con el mismo profesor.</li>
+  <li>Los estudiantes pueden ver en línea los registros de otros compañeros.</li>
+  <li>Los estudiantes solo ven el nombre de los alumnos con quienes compartirán cada clase.</li>
+</ol>
+
+<h3>Listado filtrado de Estudiantes</h3>
+<p>
+  Para mirar una lista filtrada de estudiantes, para ver unicamente quienes comparten maerias con el id ingresado  visite la sigiente página:
+  <a href="https://localhost:4200/studentbyid/D441A034-B119-4B6F-B3BA-08DBA352617F">Filtrar Estudiantes por materia</a>
+<p> Cambiar el id: "D441A034-B119-4B6F-B3BA-08DBA352617F" por alguno qu eexista en la DB</p>
+
+<h3>Registro de Estudiantes</h3>
+<p>
+  Para crear estudiantes, visita la siguiente página:
+  <a href="https://localhost:4200/student">Registrar Estudiante</a>
+</p>
+<h3>Asignación de Materias</h3>
+<p>
+  Para asignar materias, visita la siguiente página:
+  <a href="https://localhost:4200/subject">Registrar Materias</a>
+</p>
+
+
+<h3>Pendientes</h3>
+<ul>
+  <li>Adición de estilos y mejoras visuales al sitio.</li>
+  <li>Implementación de un menú de navegación.</li>
+  <li>Inicio de sesión para los estudiantes.</li>
+  <li>Selección del estudiante con el cual se desea filtrar la vista de los demás estudiantes.</li>
+</ul>
+

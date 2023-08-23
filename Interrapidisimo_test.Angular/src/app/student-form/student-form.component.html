@@ -1,0 +1,15 @@
+<h1 id="tableLabel">Crear estudiante</h1>
+
+<form [formGroup]="studentForm" (ngSubmit)="onSubmit()">
+  <div>
+    <label for="name">Nombre:</label>
+    <input type="text" id="name" formControlName="name">
+    <div *ngIf="studentForm.get('name')?.hasError('required') && studentForm.get('name')?.touched">
+      El nombre es obligatorio.
+    </div>
+  </div>
+  <!-- Agrega aquí más campos del formulario -->
+
+  <button type="submit" [disabled]="studentForm.invalid">Crear Estudiante</button>
+
+</form>

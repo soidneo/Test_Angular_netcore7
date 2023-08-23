@@ -1,0 +1,30 @@
+<h1 id="tableLabel">Listado filtrado por id de estudiante</h1>
+
+<p>Prueba interrapidisimo.</p>
+
+<p *ngIf="!students">No se han encontrado estudiantes con el id suministrado</p>
+
+<table *ngIf="students!">
+  <thead>
+    <tr>
+      <th>Nombre</th>
+      <th>Materias Inscritas</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let student of students">
+      <td>{{ student.name }}</td>
+      <td>
+        <ul>
+          <li *ngFor="let registeredSubject of student.registeredSubjects">
+            {{ registeredSubject.subject.name }} - {{ registeredSubject.professor.name }}
+          </li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+  <div *ngIf="errorMessage" class="error-message">
+    {{ errorMessage }}
+  </div>
+</table>
+

@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34003.232
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interrapidisimo_test.Core", "src\Interrapidisimo_test.Core\Interrapidisimo_test.Core.csproj", "{38A545B4-9C50-440B-848E-576D08333656}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interrapidisimo_test.Infrastructure", "src\Interrapidisimo_test.Infrastructure\Interrapidisimo_test.Infrastructure.csproj", "{A7D1E28C-DE4C-4502-B12F-B3C240B40CDE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interrapidisimo_test.SharedKernel", "src\Interrapidisimo_test.SharedKernel\Interrapidisimo_test.SharedKernel.csproj", "{D6C72939-C25F-462E-B491-2898921A9D6B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interrapidisimo_test.Web", "src\Interrapidisimo_test.Web\Interrapidisimo_test.Web.csproj", "{AE0642D3-22A9-459E-A96B-5F4D5D9543E6}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "Interrapidisimo_test.Angular", "Interrapidisimo_test.Angular\Interrapidisimo_test.Angular.esproj", "{33568EBD-311D-409B-9026-5619E088BE55}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38A545B4-9C50-440B-848E-576D08333656}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38A545B4-9C50-440B-848E-576D08333656}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38A545B4-9C50-440B-848E-576D08333656}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38A545B4-9C50-440B-848E-576D08333656}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7D1E28C-DE4C-4502-B12F-B3C240B40CDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7D1E28C-DE4C-4502-B12F-B3C240B40CDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7D1E28C-DE4C-4502-B12F-B3C240B40CDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7D1E28C-DE4C-4502-B12F-B3C240B40CDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6C72939-C25F-462E-B491-2898921A9D6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6C72939-C25F-462E-B491-2898921A9D6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6C72939-C25F-462E-B491-2898921A9D6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6C72939-C25F-462E-B491-2898921A9D6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE0642D3-22A9-459E-A96B-5F4D5D9543E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE0642D3-22A9-459E-A96B-5F4D5D9543E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE0642D3-22A9-459E-A96B-5F4D5D9543E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE0642D3-22A9-459E-A96B-5F4D5D9543E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33568EBD-311D-409B-9026-5619E088BE55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33568EBD-311D-409B-9026-5619E088BE55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33568EBD-311D-409B-9026-5619E088BE55}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{33568EBD-311D-409B-9026-5619E088BE55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33568EBD-311D-409B-9026-5619E088BE55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33568EBD-311D-409B-9026-5619E088BE55}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D711A07D-2AC6-4F6C-9DF8-9020777D9AAF}
+	EndGlobalSection
+EndGlobal

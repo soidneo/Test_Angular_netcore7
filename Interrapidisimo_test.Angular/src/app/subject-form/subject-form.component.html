@@ -1,0 +1,31 @@
+<h1>Registrar una materia:</h1>
+
+
+
+<form [formGroup]="subjectForm" (ngSubmit)="onSubmit()">
+  <div>
+    <label>Selecciona un estudiante:</label>
+    <select formControlName="studentId">
+      <option value="">Seleccione estudiante</option>
+      <option *ngFor="let student of students!.students" [value]="student?.id">{{ student.name }}</option>
+    </select>
+  </div>
+  <div>
+    <label>Selecciona una materia:</label>
+    <select formControlName="subjectId">
+      <option value="">Seleccione materia</option>
+      <option *ngFor="let subject of subjects!.subjects" [value]="subject?.id">{{ subject.name }}</option>
+    </select>
+  </div>
+  <div>
+    <label>Selecciona un profesor:</label>
+    <select formControlName="professorId">
+      <option value="">Seleccione profesor</option>
+      <option *ngFor="let professor of professors!.professors" [value]="professor?.id">{{ professor.name }}</option>
+    </select>
+  </div>
+  <button type="submit">Registrar Materia</button>
+  <div *ngIf="errorMessage" class="error-message">
+    {{ errorMessage }}
+  </div>
+</form>

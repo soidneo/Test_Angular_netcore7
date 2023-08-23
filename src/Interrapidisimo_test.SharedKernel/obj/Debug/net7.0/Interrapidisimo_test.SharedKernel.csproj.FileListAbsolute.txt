@@ -1,0 +1,12 @@
+C:\Users\soidn\source\repos\Interrapidisimo_test\src\Interrapidisimo_test.SharedKernel\bin\Debug\net7.0\Interrapidisimo_test.SharedKernel.deps.json
+C:\Users\soidn\source\repos\Interrapidisimo_test\src\Interrapidisimo_test.SharedKernel\bin\Debug\net7.0\Interrapidisimo_test.SharedKernel.dll
+C:\Users\soidn\source\repos\Interrapidisimo_test\src\Interrapidisimo_test.SharedKernel\bin\Debug\net7.0\Interrapidisimo_test.SharedKernel.pdb
+C:\Users\soidn\source\repos\Interrapidisimo_test\src\Interrapidisimo_test.SharedKernel\obj\Debug\net7.0\Interrapidisimo_test.SharedKernel.csproj.AssemblyReference.cache
+C:\Users\soidn\source\repos\Interrapidisimo_test\src\Interrapidisimo_test.SharedKernel\obj\Debug\net7.0\Interrapidisimo_test.SharedKernel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\soidn\source\repos\Interrapidisimo_test\src\Interrapidisimo_test.SharedKernel\obj\Debug\net7.0\Interrapidisimo_test.SharedKernel.AssemblyInfoInputs.cache
+C:\Users\soidn\source\repos\Interrapidisimo_test\src\Interrapidisimo_test.SharedKernel\obj\Debug\net7.0\Interrapidisimo_test.SharedKernel.AssemblyInfo.cs
+C:\Users\soidn\source\repos\Interrapidisimo_test\src\Interrapidisimo_test.SharedKernel\obj\Debug\net7.0\Interrapidisimo_test.SharedKernel.csproj.CoreCompileInputs.cache
+C:\Users\soidn\source\repos\Interrapidisimo_test\src\Interrapidisimo_test.SharedKernel\obj\Debug\net7.0\Interrapidisimo_test.SharedKernel.dll
+C:\Users\soidn\source\repos\Interrapidisimo_test\src\Interrapidisimo_test.SharedKernel\obj\Debug\net7.0\refint\Interrapidisimo_test.SharedKernel.dll
+C:\Users\soidn\source\repos\Interrapidisimo_test\src\Interrapidisimo_test.SharedKernel\obj\Debug\net7.0\Interrapidisimo_test.SharedKernel.pdb
+C:\Users\soidn\source\repos\Interrapidisimo_test\src\Interrapidisimo_test.SharedKernel\obj\Debug\net7.0\ref\Interrapidisimo_test.SharedKernel.dll

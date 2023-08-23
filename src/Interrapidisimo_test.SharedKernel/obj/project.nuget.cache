@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "xU0b381O8/H+eSLscSsPLDlhS9ZkRZZoLdWFAEeqSksl+4JnH2Mw9WVMeoQ1K7KtWN/puV+H04LNBpB9caxhYQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\soidn\\source\\repos\\Interrapidisimo_test\\src\\Interrapidisimo_test.SharedKernel\\Interrapidisimo_test.SharedKernel.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\soidn\\.nuget\\packages\\ardalis.specification\\6.1.0\\ardalis.specification.6.1.0.nupkg.sha512",
+    "C:\\Users\\soidn\\.nuget\\packages\\mediatr\\12.0.1\\mediatr.12.0.1.nupkg.sha512",
+    "C:\\Users\\soidn\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\soidn\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

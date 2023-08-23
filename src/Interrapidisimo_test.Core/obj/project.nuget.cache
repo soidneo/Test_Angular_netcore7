@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "zGaLFWRWoWC/eG7xy1WomPlbRnII4O71jF0V00aRLuJIbtNICrw0DtBHbwkgeaZZ3qa8WfLVm29hs7ot7JtJiQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\soidn\\source\\repos\\Interrapidisimo_test\\src\\Interrapidisimo_test.Core\\Interrapidisimo_test.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\soidn\\.nuget\\packages\\ardalis.guardclauses\\4.0.1\\ardalis.guardclauses.4.0.1.nupkg.sha512",
+    "C:\\Users\\soidn\\.nuget\\packages\\ardalis.result\\7.0.0\\ardalis.result.7.0.0.nupkg.sha512",
+    "C:\\Users\\soidn\\.nuget\\packages\\ardalis.smartenum\\7.0.0\\ardalis.smartenum.7.0.0.nupkg.sha512",
+    "C:\\Users\\soidn\\.nuget\\packages\\ardalis.specification\\6.1.0\\ardalis.specification.6.1.0.nupkg.sha512",
+    "C:\\Users\\soidn\\.nuget\\packages\\autofac\\7.0.0\\autofac.7.0.0.nupkg.sha512",
+    "C:\\Users\\soidn\\.nuget\\packages\\jetbrains.annotations\\2021.3.0\\jetbrains.annotations.2021.3.0.nupkg.sha512",
+    "C:\\Users\\soidn\\.nuget\\packages\\mediatr\\12.0.1\\mediatr.12.0.1.nupkg.sha512",
+    "C:\\Users\\soidn\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\soidn\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\soidn\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}

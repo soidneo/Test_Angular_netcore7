@@ -1,0 +1,27 @@
+﻿@page "{ProjectId}"
+@model Interrapidisimo_test.Web.Pages.ProjectDetails.IndexModel
+
+@{
+    ViewData["Title"] = "Project Details (Razor Page)";
+}
+
+@if (!String.IsNullOrEmpty(Model.Message))
+{
+    <h2>@Model.Message</h2>
+}
+else
+{
+
+<h2>Project (Razor Page)</h2>
+
+<h3>Name: @Model.Student!.Name</h3>
+
+<b>Items:</b>
+
+    <ul>
+        @if (Model.Student != null)
+        {
+            
+        }
+    </ul>
+}
