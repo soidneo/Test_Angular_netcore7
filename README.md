@@ -206,3 +206,4 @@ Domain events are a great pattern for decoupling a trigger for an operation from
 - [GuardClauses](https://github.com/ardalis/guardclauses)
 - [Result](https://github.com/ardalis/result)
 - [Specification](https://github.com/ardalis/specification)
+# Test_Angular_netcore7
